@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Transcription App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Transcription App</h1>
+    <form>
+      <div class="form-group">
+        <label for="audio-file">Select an audio file:</label>
+        <input type="file" id="audio-file" accept="audio/*">
+        <label class="file-input" for="audio-file">Choose a file</label>
+        <span class="file-name"></span>
+      </div>
+      <div class="button-container">
+        <button id="transcribe-button">Transcribe</button>
+      </div>
+    </form>
+    <div class="transcription-result" id="transcription-result"></div>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>

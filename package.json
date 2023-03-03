@@ -1,0 +1,14 @@
+{
+  "name": "transcribify",
+  "version": "1.0.0",
+  "description": "Transcribe audio",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Alexander Greco",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.1.1"
+  }
+}
